@@ -1,10 +1,10 @@
-# US2000 1d OHLCV Stock index Historical Data — Free Sample
+# US2000 1d OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_007_rows-blue)](https://getdata.finance/datasets/us2000) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/us2000)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_444_rows-blue)](https://getdata.finance/datasets/us2000) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/us2000)
 
 ### -> [**Download the full US2000 dataset on getdata.finance**](https://getdata.finance/datasets/us2000)
 
-**US2000 1d OHLCV stock index historical data** — ultra high-quality 1d OHLCV for **Russell 2000**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**US2000 1d OHLCV index historical data** — ultra high-quality 1d OHLCV for **Russell 2000**. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1d OHLCV** for **Russell 2000** (Stock index)
-- **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
+- **Ultra high-quality 1d OHLCV** for **Russell 2000** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/us2000) · **2,007** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/us2000) · **2,444** `1d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1d` sample updated in sync
 
-> **Sample on GitHub** · `US2000_1d.csv` (2,007 rows, `2018-10-26` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/us2000)** — **2,007** `1m` rows (~0.12 MB), **11 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W), `2018-10-26` -> `2026-07-31`.
+> **Sample on GitHub** · `US2000_1d.csv` (44 rows, `2026-07-08` -> `2026-09-01`, 2.94 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/us2000)** — **2,444** `1d` rows (full `1m`: 2,762,553), **11 timeframes**, `2018-10-25` -> `2026-09-01`.
 
 ## Download sample
 
@@ -44,11 +43,11 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/us2000))** |
 |---|--:|---|
-| Instrument | Russell 2000 · Stock index | Russell 2000 · Stock index |
+| Instrument | Russell 2000 · Index | Russell 2000 · Index |
 | Timeframes | `1d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 2,007 | **2,007** |
-| Size | 0.12 MB | ~0.12 MB |
-| Period | `2018-10-26` -> `2026-07-31` | `2018-10-26` -> `2026-07-31` |
+| 1d rows | 44 | **2,444** |
+| Size | 2.94 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/us2000) |
+| Period | `2026-07-08` -> `2026-09-01` | `2018-10-25` -> `2026-09-01` |
 | File | `US2000_1d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/us2000) |
 | Coverage report | — | [US2000 coverage](https://getdata.finance/coverage/us2000) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -57,7 +56,7 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 This GitHub repository ships a **`1d` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/us2000)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **4H** · **12H** · **1D** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
 GitHub = `1d` sample · [getdata.finance](https://getdata.finance/datasets/us2000) = all **11** timeframes above for the same instrument.
 
@@ -76,21 +75,21 @@ First and latest rows from the GitHub sample **`US2000_1d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2018-10-26T00:00:00+00:00 | 1464.3 | 1498.9 | 1460.5 | 1486.3 | 156952 |
-| 2018-10-29T00:00:00+00:00 | 1486.3 | 1516.9 | 1460.7 | 1478 | 444138 |
-| 2018-10-30T00:00:00+00:00 | 1478 | 1514 | 1474.7 | 1514 | 478343 |
-| 2018-10-31T00:00:00+00:00 | 1514 | 1529.2 | 1508.5 | 1510.8 | 386781 |
-| 2018-11-01T00:00:00+00:00 | 1510.8 | 1547.95 | 1510.3 | 1541.35 | 425099 |
+| 2026-07-08T00:00:00+00:00 | 2947.66 | 2999.36 | 2947.66 | 2989.66 | 530074 |
+| 2026-07-09T00:00:00+00:00 | 2989.66 | 3004.04 | 2958.34 | 2981.67 | 207763 |
+| 2026-07-10T00:00:00+00:00 | 2981.67 | 2996.05 | 2950.35 | 2973.68 | 207763 |
+| 2026-07-12T00:00:00+00:00 | 2981.67 | 2981.67 | 2947.26 | 2950.85 | 273565 |
+| 2026-07-13T00:00:00+00:00 | 2950.85 | 3013.87 | 2942.31 | 2967.37 | 322926 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-27T00:00:00+00:00 | 2931.89 | 2975.13 | 2930.47 | 2950.28 | 283109 |
-| 2026-07-28T00:00:00+00:00 | 2950.28 | 2957.82 | 2922.95 | 2954.67 | 366832 |
-| 2026-07-29T00:00:00+00:00 | 2954.67 | 2968.13 | 2892.14 | 2892.57 | 434679 |
-| 2026-07-30T00:00:00+00:00 | 2892.57 | 2948.65 | 2892.57 | 2945.78 | 371095 |
-| 2026-07-31T00:00:00+00:00 | 2945.78 | 2963.26 | 2943.66 | 2959.88 | 38588 |
+| 2026-08-26T00:00:00+00:00 | 3009.2 | 3016.1 | 3002.4 | 3003.89 | 12248 |
+| 2026-08-27T00:00:00+00:00 | 3014.91 | 3021.6 | 2972.78 | 2975.08 | 244619 |
+| 2026-08-30T00:00:00+00:00 | 2975.08 | 2979.19 | 2942.89 | 2955.71 | 201369 |
+| 2026-08-31T00:00:00+00:00 | 2955.71 | 2961.46 | 2915.54 | 2923.25 | 211537 |
+| 2026-09-01T00:00:00+00:00 | 2923.25 | 2923.59 | 2915.26 | 2917.96 | 15044 |
 
 ## Schema
 
@@ -117,8 +116,6 @@ import pandas as pd
 df = pd.read_csv('US2000_1d.csv', parse_dates=['datetime'])
 df.set_index('datetime', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -151,15 +148,15 @@ close = df.set_index('datetime')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1d')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **US2000** archive on **[getdata.finance](https://getdata.finance/datasets/us2000)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **2,007** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **US2000** archive on **[getdata.finance](https://getdata.finance/datasets/us2000)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **2,444** rows at `1d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full US2000 dataset on getdata.finance](https://getdata.finance/datasets/us2000)**
 
 ---
-*GetData · US2000 1d OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/us2000) · 2026-08-05 UTC*
+*GetData · US2000 1d OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/us2000)*
